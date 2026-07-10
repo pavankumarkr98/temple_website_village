@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "./pages/OtherPage/NotFound";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
@@ -14,11 +14,9 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         {/* Protected Routes */}
-        <Route element={<AppLayout />}>
-          <Route path="/" element={<Navigate to="/LandingPage" replace />} />
-        
+        <Route element={<AppLayout />}>        
         {/* Home page - shows list of topics */}
-        <Route path="/LandingPage" element={<TempleWebsite />} />
+        <Route path="/" element={<TempleWebsite />} />
         </Route>
         {/* Fallback */}
         <Route path="*" element={<NotFound />} />

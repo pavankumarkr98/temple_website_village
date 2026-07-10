@@ -430,7 +430,7 @@ const TravelFooter: React.FC = () => {
               <p>ಕಾಡಶೆಟ್ಟಿಹಳ್ಳಿ (Kadashettyhalli), Kunigal Taluk</p>
               <p>Tumkur District, Karnataka - 572111</p>
               <p className="text-sm text-[#f1c40f]/70 mt-2">
-                <i className="fas fa-phone mr-2"></i> +91 98765 43210 (Trust Office)
+                <i className="fas fa-phone mr-2"></i> +91 9945730082 (Trust Office)
               </p>
             </address>
           </div>

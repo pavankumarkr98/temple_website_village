@@ -5,7 +5,7 @@ export interface PlanYourVisitProps {
   t?: any;
 }
 
-const PlanYourVisit: React.FC<PlanYourVisitProps> = ({ language, t }) => {
+const PlanYourVisit: React.FC<PlanYourVisitProps> = ({ language }) => {
   const [activeTab, setActiveTab] = useState<'overview' | 'pooja' | 'attractions' | 'travel' | 'plan' | 'timings'>('overview');
   const [selectedPooja, setSelectedPooja] = useState<string | null>(null);
 
